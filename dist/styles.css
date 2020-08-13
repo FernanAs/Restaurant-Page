@@ -1,0 +1,68 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/pexels-ibrahim-boran-903376.jpg');
+    background-repeat: no-repeat;
+    background-position: center;      
+}
+
+#container {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    height: 100vh;
+}
+
+#navbar {
+    height: 6vh;
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    width: 80%;
+    display: flex;
+    list-style: none;
+    font-size: 1.4em;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: grey;
+    background-color: transparent;
+}
+
+.nav-link {
+    padding: 1.3em;
+    color: white;
+}
+
+.logo {
+    width: 20%;
+    padding: 2.2em;
+    color: white;
+    font-size: 1.4em;
+}
+
+.info-container {       
+    color: whitesmoke;
+    margin-top:2em;
+}
+
+.info {
+    background-color:rgba(0, 0, 0, 0.527);
+    border-radius: 1em;
+    font-size: 1.5em;
+    font-family: cursive;
+    padding: 1em;
+    color: whitesmoke;
+    width: 80%;
+    margin:0 auto;
+}
+
+ img{
+    max-width:100%;
+    height:auto;
+} 
